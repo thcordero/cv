@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*
+div {
+  background-color: #e4f9f5;
+  border-width: 0px 10px 20px 30px;
+  border-style: solid;
+  border-color: black;
+  height: 100px;
+  margin: 5px;
+  width: 200px;
+}*/
+.top-conteiner {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.midle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.photo{
+  border-radius: 50%;
+  height: 110px;
+  width: 100px;
+}
+.programmer{
+  height: 150px;
+  width: 150px;
+}
+.guitar{
+  height: 150px;
+  width: 150px;
+}
