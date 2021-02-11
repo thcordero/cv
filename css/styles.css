@@ -17,7 +17,7 @@ hr {
 }
 
 .section-2 {
-  padding: 0;
+  padding: 0 0 0 10px;
   margin-left: 0px;
 }
 
@@ -81,7 +81,7 @@ hr {
 
 .section-1 {
   margin: 20px 0px auto 0px;
-  padding: 0;
+  padding: 0 10px 0 0;
 }
 
 .skills {
@@ -124,28 +124,37 @@ hr {
 }
 
 @media (max-width: 420px) {
-  body{
+  body {
     font-size: 2rem;
   }
 
-  .heading{
-    height: 500px;
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
   }
-  .personal-details{
+
+  .heading {
+    height: 800px;
+  }
+
+  .personal-details {
     margin-top: 0;
     position: relative;
-    bottom: 90px;
+    bottom: 200px;
   }
-  .picture{
+
+  .picture {
     height: 150px;
+    width: 130px;
+    padding: 0;
   }
+
   .foot {
     margin-top: 0;
   }
 
   .hobbies {
     position: relative;
-    top: 230px;
+    top: 830px;
   }
 
   .miscellaneous {
@@ -154,4 +163,11 @@ hr {
     margin-top: 10px
   }
 
+  .section-1 {
+    padding: 0;
+  }
+
+  .section-2 {
+    padding: 0;
+  }
 }
