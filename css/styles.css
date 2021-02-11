@@ -33,18 +33,18 @@ hr {
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 300;
 }
 
 .qualification {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-weight: 200;
   margin-top: 10px;
 }
 
 .job {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 300;
   margin-top: 10px;
 }
@@ -88,6 +88,14 @@ hr {
   margin-top: 0;
 }
 
+.web-development {
+  margin-bottom: 19.2px;
+}
+
+.software {
+  margin-bottom: 19.2px;
+}
+
 .fab, .far {
   color: green;
 }
@@ -113,19 +121,34 @@ hr {
   .section-1 hr {
     margin-right: 30px;
   }
-
 }
 
-@media (max-width: 992px){
-.foot{
-  margin-top: 0;
-}
-  .hobbies{
+@media (max-width: 992px) {
+  body{
+    font-size: 2rem;
+  }
+
+  .heading{
+    height: 500px;
+  }
+  .personal-details{
+    margin-top: 0;
+    position: relative;
+    bottom: 90px;
+  }
+  .picture{
+    height: 150px;
+  }
+  .foot {
+    margin-top: 0;
+  }
+
+  .hobbies {
     position: relative;
     top: 230px;
-
   }
-  .miscellaneous{
+
+  .miscellaneous {
     position: relative;
     bottom: 163.4px;
     margin-top: 10px
