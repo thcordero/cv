@@ -124,13 +124,13 @@ hr {
 
   .hobbies {
     position: relative;
-    top: 260px;
+    top: 280px;
   }
 
   .miscellaneous {
     position: relative;
     bottom: 173.4px;
-    margin-top: 10px
+    margin-top: 10px;
   }
 }
 
