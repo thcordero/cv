@@ -155,13 +155,3 @@ hr {
     margin-right: 30px;
   }
 }
-
-@media (max-width : 500px) {
-  body {
-    font-size: 3em;
-  }
-
-  p {
-    font-size: 5rem;
-  }
-}
