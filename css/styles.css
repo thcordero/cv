@@ -125,7 +125,7 @@ hr {
 
   .hobbies {
     position: relative;
-    top: 230px;
+    top: 240px;
   }
 
   .miscellaneous {
@@ -136,21 +136,21 @@ hr {
 
 }
 
- @media (max-width: 768px){
-  body{
+ @media screen and (max-width: 768px){
+  /* body{
     font-size: 2rem;
   }
 
   p{
     font-size: 1.2rem;
-  }
+  } */
   .heading {
-    height: 400px;
+    height: 350px;
   }
   .personal-details {
     margin-top: 0;
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
   }
 }
 
