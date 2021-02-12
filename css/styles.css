@@ -113,8 +113,7 @@ hr {
   padding: 0
 }
 
-@media (max-width: 992px){
-
+@media (max-width: 992px) {
   .section-1 {
     padding: 0;
   }
@@ -133,27 +132,19 @@ hr {
     bottom: 173.4px;
     margin-top: 10px
   }
-
 }
 
- @media screen and (max-width: 768px){
-  /* body{
-    font-size: 2rem;
-  }
-
-  p{
-    font-size: 1.2rem;
-  } */
+@media screen and (max-width: 768px) {
   .heading {
     height: 350px;
   }
+
   .personal-details {
     margin-top: 0;
     position: relative;
     bottom: 10px;
   }
 }
-
 
 @media (min-width: 992px) {
   .hobbies hr {
@@ -165,30 +156,12 @@ hr {
   }
 }
 
-/* @media (max-width: 420px) {
-
-
-
-
-
-
-
-
-  .picture {
-    height: 150px;
-    width: 130px;
-    padding: 0;
+@media (max-width : 500px) {
+  body {
+    font-size: 3em;
   }
 
-  .foot {
-    margin-top: 0;
+  p {
+    font-size: 5rem;
   }
-
-
-
-
-
-  .section-2 {
-    padding: 0;
-  }
-} */
+}
