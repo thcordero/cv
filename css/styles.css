@@ -136,13 +136,26 @@ hr {
 
 }
 
- @media (max-width: 7668px){
+ @media only screen and (max-width: 768px){
   body{
     font-size: 2rem;
   }
+
+  p{
+    font-size: 1.2rem;
+  }
+  .heading {
+    height: 400px;
+  }
+  .personal-details {
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+  }
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 992px) {
   .hobbies hr {
     margin-right: 30px;
   }
@@ -155,19 +168,11 @@ hr {
 /* @media (max-width: 420px) {
 
 
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 1em;
-  }
 
-  .heading {
-    height: 800px;
-  }
 
-  .personal-details {
-    margin-top: 0;
-    position: relative;
-    bottom: 200px;
-  }
+
+
+
 
   .picture {
     height: 150px;
