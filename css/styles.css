@@ -136,13 +136,13 @@ hr {
 
 }
 
- @media (max-width: 992px){
+ @media (max-width: 7668px){
   body{
     font-size: 2rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .hobbies hr {
     margin-right: 30px;
   }
